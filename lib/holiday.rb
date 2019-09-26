@@ -84,7 +84,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_names = Array.new
     holiday_hash.each {|season, holiday|
       if holiday.include? "BBQ"
-        holiday_names << holiday
+        holiday_names << "#{holiday}"
       end
     }
   return holiday_names
