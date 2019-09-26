@@ -75,7 +75,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
   holiday.each { |holiday, supply|
     puts "#{holiday.to_s.split("_").map { |supply| supply.capitalize }.join(" ") }: #{supply.join(", ") }"
-  }
+  }}
 end
 
 def all_holidays_with_bbq(holiday_hash)
