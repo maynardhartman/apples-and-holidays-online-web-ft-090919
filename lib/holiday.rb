@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  @output <<-TEXT
+  @holiday_hash <<-TEXT
   Winter:
     Christmas: Lights, Wreath
     New Years: Party Hats
@@ -82,6 +82,7 @@ def all_supplies_in_holidays(holiday_hash)
   Spring:
     Memorial Day: BBQ
 TEXT
+puts holiday_hash
 end
 
 def all_holidays_with_bbq(holiday_hash)
