@@ -87,6 +87,6 @@ def all_holidays_with_bbq(holiday_hash)
         holiday_names << "#{holiday}"
       end
     }
-  return holiday_names << :fourth_of_july,:memorial_day
+  return holiday_names << "#{fourth_of_july}",:memorial_day
 end
 
