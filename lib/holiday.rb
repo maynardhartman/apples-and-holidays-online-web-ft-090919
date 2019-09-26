@@ -93,7 +93,7 @@ def all_holidays_with_bbq(holiday_hash)
     [:memorial_day]
     ret_array << "BBQ"
     return ret_array
-  end
+    end
     
   }
   
