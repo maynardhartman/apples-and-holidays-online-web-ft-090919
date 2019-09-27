@@ -53,9 +53,11 @@ def all_winter_holiday_supplies(holiday_hash)
   empty = Array.new
   holiday_hash.each { |season|
     if season.to_s == "winter"
-      empty << holiday_hash[:season][:christmas]
-      empty << holiday_hash[:season[:new_years]]
-      binding.pry
+      season.winter.each {|holiday 
+        empty << holiday_hash[:season][holiday]
+      empty << holiday_hash[:season][holiday]
+    end
+      }
       return empty
     end
     }
