@@ -53,7 +53,7 @@ def all_winter_holiday_supplies(holiday_hash)
   empty = Array.new
   holiday_hash.each { |season, holiday |
     if season.to_s == 'winter'
-    holiday.each {|supply|
+    holiday.each {|holiday,supply|
     empty << supply
     }
     end
