@@ -54,9 +54,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.each { |season, holiday |
     holiday.each {|supply|
     empty << supply.capitalize
-  end
     }
-  end
   }
 return empty
 end
