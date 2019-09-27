@@ -82,7 +82,7 @@ def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
   holiday_names = Array.new 
-  holiday_names << :fourth_of_jul
+  holiday_names << :fourth_of_july
   holiday_names << :memorial_day
   return holiday_names
 end
