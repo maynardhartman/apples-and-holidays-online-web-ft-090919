@@ -55,8 +55,9 @@ def all_winter_holiday_supplies(holiday_hash)
     if season.to_s == 'winter'
     holiday.each {|supply|
     empty << supply
-    end
     }
+    end
+    
   }
 return empty
 end
