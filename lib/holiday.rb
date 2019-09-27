@@ -57,7 +57,7 @@ def all_winter_holiday_supplies(holiday_hash)
         empty << holiday_hash[:season][holiday]
      
     end
-      }
+      
   }
 return empty
 end
